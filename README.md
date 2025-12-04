@@ -88,7 +88,7 @@
 ## 7.Создание статического веб-сайта на базе S3
 Создали бакет `cc-lab4-web-k02` для хостинга:
   - Region: `eu-central-1`
-  - Object Ownership: ACLs enabled
+  - Object Ownership: Bucket owner enforced
   - **Block all public access** сняли
 Включили **Static website hosting**:  
   - Hosting type: Host a static website  
@@ -124,4 +124,5 @@
 
 6) Что такое Storage Class в Amazon S3 и зачем они нужны?
 - Storage Class — это класс хранения объекта (например, STANDARD, STANDARD_IA, GLACIER, DEEP_ARCHIVE). Различные классы имеют разные цены и характеристики доступа: горячее хранение для частого доступа и более дешёвые архивные классы для редкого доступа, что помогает оптимизировать затраты.
+
 
